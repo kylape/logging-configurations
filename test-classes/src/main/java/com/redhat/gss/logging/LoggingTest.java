@@ -6,7 +6,7 @@
  */
 package com.redhat.gss.logging;
 
-public class TestEjb {
+public class LoggingTest {
   private org.slf4j.Logger slf4j                = org.slf4j.LoggerFactory.getLogger(this.getClass());
   private org.apache.log4j.Logger log4j         = org.apache.log4j.Logger.getLogger(this.getClass());
   private org.jboss.logging.Logger jbossLogging = org.jboss.logging.Logger.getLogger(this.getClass());
