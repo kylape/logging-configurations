@@ -12,6 +12,7 @@ public class TestServlet extends HttpServlet {
     try {
       LoggingTest test = new LoggingTest();
       test.test();
+      test.classInfo();
     } catch(Exception e) {
       e.printStackTrace();
     }
