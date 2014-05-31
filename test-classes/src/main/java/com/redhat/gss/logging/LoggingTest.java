@@ -30,7 +30,7 @@ public class LoggingTest {
 
   public void classInfo() {
     StringBuilder builder = new StringBuilder();
-    builder.append("\n========================");
+    builder.append("Class information:\n========================");
     for(Object logger : loggers) {
       builder.append("\nClass name:  " + logger.getClass().getName());
       builder.append("\nClassloader: ");
