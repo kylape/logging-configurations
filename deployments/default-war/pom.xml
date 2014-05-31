@@ -12,4 +12,19 @@
     <artifactId>deployments</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
+  <build>
+    <finalName>logging-default</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.jboss.as.plugins</groupId>
+        <artifactId>jboss-as-maven-plugin</artifactId>
+        <version>7.5.Final</version>
+      </plugin>
+      <plugin>
+        <groupId>org.jboss.as.plugins</groupId>
+        <artifactId>jboss-as-maven-plugin</artifactId>
+        <version>7.5.Final</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
