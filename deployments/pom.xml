@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>default-war</module>
+    <module>log4j-xml-jboss-impl-war</module>
   </modules>
   <dependencies>
     <dependency>
