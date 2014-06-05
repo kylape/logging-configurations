@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
-  <appender name="FILE" class="org.jboss.logging.appender.DailyRollingFileAppender">
-    <param name="File" value="/home/remote/klape/jboss/test.log"/>
+  <appender name="FILE" class="org.apache.log4j.FileAppender">
+    <param name="File" value="/home/remote/klape/jboss/product-distributions/test.log"/>
     <param name="Append" value="false"/>
     <param name="DatePattern" value="'.'yyyy-MM-dd"/>
     <layout class="org.apache.log4j.PatternLayout">
