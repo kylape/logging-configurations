@@ -14,6 +14,7 @@
   </parent>
   <modules>
     <module>default-war</module>
+    <module>log4j-xml-war</module>
     <module>log4j-xml-with-exclusions-war</module>
   </modules>
   <dependencies>
