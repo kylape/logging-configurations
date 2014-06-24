@@ -7,6 +7,20 @@
   <packaging>pom</packaging>
   <name>Various Logging Configurations in EAP 6</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <version.eap6>6.2.3.GA</version.eap6>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.jboss.bom</groupId>
+        <artifactId>eap6-supported-artifacts</artifactId>
+        <version>${version.eap6}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <modules>
     <module>log4j-xml</module>
     <module>test-classes</module>

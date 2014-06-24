@@ -7,6 +7,11 @@
   <packaging>pom</packaging>
   <name>Various Logging Deployments in EAP 6</name>
   <url>http://maven.apache.org</url>
+  <parent>
+    <groupId>com.redhat.gss.logging</groupId>
+    <artifactId>logging</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
   <modules>
     <module>default-war</module>
     <module>log4j-xml-with-exclusions-war</module>
