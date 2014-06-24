@@ -22,7 +22,6 @@
     </dependencies>
   </dependencyManagement>
   <modules>
-    <module>log4j-xml</module>
     <module>test-classes</module>
     <module>deployments</module>
   </modules>
