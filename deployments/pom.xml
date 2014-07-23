@@ -16,6 +16,7 @@
     <module>default-war</module>
     <module>log4j-xml-war</module>
     <module>log4j-xml-with-exclusions-war</module>
+    <module>logging-properties</module>
   </modules>
   <dependencies>
     <dependency>
