@@ -52,9 +52,34 @@ public class LoggingTest {
     System.out.println("Testing STDOUT");
     System.err.println("Testing STDERR");
     System.out.println("TCCL: " + Thread.currentThread().getContextClassLoader());
+
+    slf4j.trace("SFL4J");
+    slf4j.debug("SFL4J");
     slf4j.info("SFL4J");
+    slf4j.warn("SFL4J");
+    slf4j.error("SFL4J");
+
+    log4j.trace("Log4J");
+    log4j.debug("Log4J");
     log4j.info("Log4J");
+    log4j.info("Log4J");
+    log4j.warn("Log4J");
+    log4j.error("Log4J");
+    log4j.fatal("Log4J");
+
+    jbossLogging.trace("JBoss Logging");
+    jbossLogging.debug("JBoss Logging");
     jbossLogging.info("JBoss Logging");
+    jbossLogging.warn("JBoss Logging");
+    jbossLogging.error("JBoss Logging");
+    jbossLogging.fatal("JBoss Logging");
+
+    julLogger.finest("JUL");
+    julLogger.finer("JUL");
+    julLogger.fine("JUL");
+    julLogger.config("JUL");
     julLogger.info("JUL");
+    julLogger.warning("JUL");
+    julLogger.severe("JUL");
   }
 }
